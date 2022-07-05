@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.containerSun{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.divCarousel{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 5vh;
+
+}
+.carousel{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.divForm{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5vh;
+}
+.series{
+    margin-bottom: 5vh;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+}
+.input{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    font-size: 2.5vh;
+    font-family: cursive;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/*sidebar*/
+@media screen and (min-width:400px) and (max-width:800px) {
+    .container{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    .containerSun{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    .divCarousel{
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+    .divForm{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 2vh;
+    }
+    .series{
+        margin-bottom: 2vh;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        height: 80%;
+        width: 100%;
+    }
+}

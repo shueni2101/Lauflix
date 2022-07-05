@@ -1,0 +1,121 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  .containerTitle{
+    display: flex;
+    flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin-top: 9%;
+  }
+  .title{
+    display: flex;
+    justify-content: center;
+    color: grey;
+  }
+  .containerCarousel{
+    display: flex;
+    justify-content: center;
+    max-height: 100%;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px 20px 20px 20px;
+
+  }
+  .divImagen{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .carousel{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px 20px 20px 20px;
+    width: 50%;
+    height: 70%;
+    transition: 1s;
+  }
+  #imagen{
+    max-height: 70vh;
+    width: 45%;
+    border-radius: 10px 10px;
+    transition:  1s ease-out ;
+    cursor: pointer;
+  }
+
+  #imagen:hover{
+    max-height: 70vh;
+    width: 48%;
+    border: 10px solid white;
+    cursor: pointer;
+  }
+  
+
+
+  
+  @media screen and (min-width:200px) and (max-width:800px) {
+    .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+    }
+    .containerTitle{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+      margin-bottom: 2%;
+      margin-top: 12%;
+    }
+    .title{
+      font-size: 70%;
+      display: flex;
+      justify-content: center;
+      color: grey;
+    }
+    .containerCarousel{
+      display: flex;
+      justify-content: center;
+      height: 100%;
+      width: 100%;
+      border-radius: 20px 20px 20px 20px;
+  
+    }
+    .carousel{
+      display: flex;
+      justify-content: center;
+      border-radius: 20px 20px 20px 20px;
+      width: 60%;
+      height: 70%;
+      transition: 1s;
+    }
+    .divImagen{
+      display: flex;
+      justify-content: center;
+      height: 100%;
+      width: 100%;
+    }
+    #imagen{
+      max-height: 60vh;
+      width: 70%;
+      border-radius: 10px 10px;
+      transition:  1s ease-out ;
+      cursor: pointer;
+    }
+  
+    #imagen:hover{
+      max-height: 70vh;
+      width: 70%;
+      border: none;
+      cursor: pointer;
+    }
+    
+  }
